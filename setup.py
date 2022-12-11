@@ -2,13 +2,13 @@ import setuptools
 
 with open("README.md", "r") as fh:
 
-    long_description = fh.read() + open("CHANGELOG.txt").read()
+    long_description = fh.read() + "\n" + open("CHANGELOG.txt").read()
 
 setuptools.setup(
 
     name="Image To ASCII generator", # Replace with your username
 
-    version="1.0.1",
+    version="1.0.2",
 
     author="Omar Maaoune",
 

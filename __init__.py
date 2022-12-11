@@ -93,4 +93,4 @@ def convertImageToAscii(imageFilePath):
 
 
 def sayDaTruth():
-    print("OMAR IS THE AWESOMEST HUMAN BEING TO EVER LIVE!!!")
+    print("OMAR MAAOUANE IS THE AWESOMEST HUMAN BEING TO EVER LIVE!!!")
