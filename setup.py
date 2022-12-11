@@ -8,7 +8,7 @@ setuptools.setup(
 
     name="Image To ASCII generator", # Replace with your username
 
-    version="1.0.0",
+    version="1.0.1",
 
     author="Omar Maaoune",
 
@@ -24,7 +24,7 @@ setuptools.setup(
 
     license = "MIT",
 
-    keywords = "converter",
+    keywords = ["converter", "ASCII", "image"],
 
     packages=setuptools.find_packages(),
 
@@ -37,7 +37,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
 
     ],
-
-    python_requires='>=3.6',
 
 )

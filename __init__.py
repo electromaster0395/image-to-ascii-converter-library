@@ -74,6 +74,9 @@ def convertImageToAscii(imageFilePath):
 
         #Begin a new row for image
         asciiImage[j] += "\n"
+
+        #Determine percentage of converted characters. If percentage changes by 1%, then print out converted
+        #percentage
         prevPerc = asciiPerc
         asciiPerc = int((asciiCount/pixelAmount)*100)
         if(asciiPerc != prevPerc):
@@ -83,7 +86,11 @@ def convertImageToAscii(imageFilePath):
 
     print("100% Converted!")
     print("Done")
-    
+
+
+    #Finally, return completed ascii image string
     return asciiImageString
 
-print("booty jamz")
+
+def sayDaTruth():
+    print("OMAR IS THE AWESOMEST HUMAN BEING TO EVER LIVE!!!")
